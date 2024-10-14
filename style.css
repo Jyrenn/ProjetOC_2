@@ -452,8 +452,26 @@ button {
     flex-direction: column;
   }
 
+  header {
+    width: 1024px;
+  }
+
   .hebergements {
     width: 100%;
+  }
+
+  .hebergements-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hebergements-cards .card-title {
+    font-size: 14px;
+  }
+
+  .hebergements-cards .card-subtitle {
+    font-size: 13px;
   }
 
   .populaires {
@@ -477,6 +495,24 @@ button {
 
   .populaires-cards .card-subtitle {
     font-size: 13px;
+  }
+
+  .Activites {
+    height: 390.02px;
+  }
+
+  .Activites-cards img {
+    height: 270px;
+  }
+
+  .Activites-cards img {
+    width: 193.5px;
+    height: 200px;
+  }
+
+  .FooterContainer {
+    width: 924px;
+    height: 163px;
   }
 }
 
