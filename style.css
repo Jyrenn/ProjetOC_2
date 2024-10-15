@@ -584,11 +584,13 @@ button {
   .Headline {
     width: 100%;
     padding: 0px 20px;
+    box-sizing: border-box;
   }
 
   .SearchBar {
     justify-content: center;
     width: 100%;
+    box-sizing: border-box;
   }
 
   .SearchButton {
@@ -657,7 +659,6 @@ button {
   .FooterContainer {
     width: 100%;
     padding: 0;
-    box-sizing: border-box;
     flex-wrap: wrap;
   }
 }
