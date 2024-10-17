@@ -71,12 +71,12 @@ header {
   height: 79px;
 }
 
-.BarreNav {
+.barre-nav {
   display: flex;
   justify-content: space-between;
 }
 
-.MenuDroite {
+.menu-droite {
   display: flex;
   gap: 68px;
   font-size: 16px;
@@ -84,16 +84,16 @@ header {
   align-items: center;
 }
 
-.MenuDroite a {
+.menu-droite a {
   padding: 14px 0px;
 }
 
-.MenuDroite a:hover {
+.menu-droite a:hover {
   color: #0065fc;
   border-top: solid 2px #0065fc;
 }
 
-.LogoNav {
+.logo-nav {
   width: 61.09px;
   height: 19px;
   padding-top: 30px;
@@ -103,17 +103,17 @@ header {
 /****** Main ***********/
 
 /****** Info Group ***********/
-.Headline h2 {
+.headline h2 {
   font-size: 22px;
   font-weight: 700;
 }
 
-.Headline p {
+.headline p {
   font-size: 16px;
   font-weight: 400;
 }
 
-.SearchBar {
+.search-bar {
   display: flex;
   border: solid 1px #f2f2f2;
   margin-top: 35px;
@@ -123,7 +123,7 @@ header {
   border-radius: 15px;
 }
 
-.LogoSearchBar {
+.logo-search-bar {
   display: flex;
   width: 50px;
   background-color: #f2f2f2;
@@ -134,11 +134,11 @@ header {
   font-size: 18px;
 }
 
-.LogoSearchBar .fa-solid {
+.logo-search-bar .fa-solid {
   color: black;
 }
 
-.FormSearchBar {
+.form-search-bar {
   display: flex;
   height: 49px;
   width: 195px;
@@ -161,7 +161,7 @@ input::placeholder {
   color: black;
 }
 
-.SearchButton {
+.search-button {
   display: flex;
   background-color: #0065fc;
   border-top-right-radius: 15px;
@@ -189,16 +189,16 @@ button {
   display: none;
 }
 
-.FilterBar p {
+.filter-bar p {
   font-size: 17px;
   font-weight: 700;
 }
 
-.FilterBar {
+.filter-bar {
   gap: 15px;
 }
 
-.FilterButtonAll {
+.filter-button-all {
   display: flex;
   gap: 15px;
   height: 50px;
@@ -206,11 +206,11 @@ button {
   padding-bottom: 35px;
 }
 
-.Filtres {
+.filtres {
   font-size: 18px;
 }
 
-.FilterButton {
+.filter-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -220,12 +220,12 @@ button {
   padding: 4px 19px;
 }
 
-.FilterButton:hover {
+.filter-button:hover {
   background-color: #deebff;
   cursor: pointer;
 }
 
-.InfoBar {
+.info-bar {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -233,7 +233,7 @@ button {
   padding-bottom: 35px;
 }
 
-.InfoBarIcone {
+.info-bar-icone {
   width: 24px;
   height: 24px;
   border: solid 1px #d9d9d9;
@@ -244,7 +244,7 @@ button {
   font-size: 11px;
 }
 
-.InfoBarTexte {
+.info-bar-texte {
   font-size: 16px;
   font-weight: 400;
 }
@@ -317,7 +317,7 @@ button {
   margin-bottom: 5px;
 }
 
-.AfficherPlus {
+.afficher-plus {
   font-size: 18px;
   font-weight: 700;
   margin-top: 30px;
@@ -369,47 +369,47 @@ button {
 }
 
 /****** Activités ***********/
-.Activites {
+.activites {
   padding: 30px;
 }
 
-.Activites-Title {
+.activites-title {
   padding: 30px;
 }
 
-.Activites-cards img {
+.activites-cards img {
   width: 100%;
   height: 380px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
-.Activites-cards .card-title {
+.activites-cards .card-title {
   margin: 19px 20px;
 }
 
-.Activites-cards {
+.activites-cards {
   display: flex;
   gap: 30px;
 }
 
-.Activites-cards a {
+.activites-cards a {
   width: 100%;
 }
 
-.Activites-cards .card {
+.activites-cards .card {
   flex-direction: column;
   padding: 0;
 }
 
-.Activites-cards .card-content {
+.activites-cards .card-content {
   display: flex;
   height: 59px;
   align-items: center;
 }
 
 /****** Footer ***********/
-.FooterContainer {
+.footer-container {
   width: 100%;
   height: 163px;
   margin-top: 35px;
@@ -417,7 +417,7 @@ button {
   display: flex;
 }
 
-.FooterContainer ul {
+.footer-container ul {
   list-style: none;
   padding: 0;
   gap: 15px;
@@ -425,34 +425,34 @@ button {
   flex-direction: column;
 }
 
-.FooterContainer h2 {
+.footer-container h2 {
   padding: 0;
   margin: 0;
   font-size: 18px;
   font-weight: 700;
 }
 
-.FooterContainer li {
+.footer-container li {
   font-size: 16px;
   font-weight: 400;
   gap: 15px;
 }
 
-.FooterContainer .A-Propos {
+.footer-container .a-propos {
   padding: 20px;
   display: flex;
   flex-direction: column;
   width: 446.67px;
 }
 
-.FooterContainer .Nos-Hebergements {
+.footer-container .nos-hebergements {
   padding: 20px;
   display: flex;
   flex-direction: column;
   width: 446.67px;
 }
 
-.FooterContainer .Assistance {
+.footer-container .assistance {
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -476,11 +476,11 @@ button {
     display: none;
   }
 
-  .MenuDroite {
+  .menu-droite {
     margin: 0;
   }
 
-  .FilterBar {
+  .filter-bar {
     flex-direction: column;
     gap: 0;
   }
@@ -528,16 +528,16 @@ button {
     font-size: 13px;
   }
 
-  .Activites-cards .card {
+  .activites-cards .card {
     height: 270px;
   }
 
-  .Activites-cards img {
+  .activites-cards img {
     width: 100%;
     height: 200px;
   }
 
-  .FooterContainer {
+  .footer-container {
     width: 100%;
     height: 163px;
   }
@@ -565,13 +565,13 @@ button {
     justify-content: center;
   }
 
-  .BarreNav {
+  .barre-nav {
     flex-direction: column;
     align-items: center;
     gap: 30px;
   }
 
-  .MenuDroite {
+  .menu-droite {
     margin: 0;
     gap: 0;
     width: 100%;
@@ -579,44 +579,44 @@ button {
     border-bottom: solid 2px #f2f2f2;
   }
 
-  .MenuDroite a {
+  .menu-droite a {
     display: flex;
     width: 100%;
     justify-content: center;
   }
 
-  .MenuDroite a:hover {
+  .menu-droite a:hover {
     color: #0065fc;
     border-bottom: solid 2px #0065fc;
     border-top: none;
   }
 
-  .InfoGroup {
+  .info-group {
     padding: 0px 20px;
   }
 
-  .Headline {
+  .headline {
     width: 100%;
 
     box-sizing: border-box;
   }
 
-  .LogoSearchBar {
+  .logo-search-bar {
     width: 100%;
     max-width: 50px;
   }
 
-  .SearchBar {
+  .search-bar {
     width: 100%;
     box-sizing: border-box;
     margin: 0;
   }
 
-  .TextSearchBar {
+  .text-search-bar {
     width: 100%;
   }
 
-  .SearchButton {
+  .search-button {
     width: 100%;
     max-width: 49px;
     border-radius: 15px;
@@ -635,32 +635,32 @@ button {
     color: #ffffff;
   }
 
-  .FilterBar {
+  .filter-bar {
     height: 161px;
     padding: 0px 20px;
   }
 
-  .FilterButtonAll {
+  .filter-button-all {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
   }
 
-  .FilterButton {
+  .filter-button {
     width: 45%;
     height: 50px;
     padding: 0;
     margin-bottom: 10px;
   }
 
-  .InfoBar {
+  .info-bar {
     margin: 0px 20px;
     padding: 0;
     height: auto;
   }
 
-  .InfoBarIcone {
+  .info-bar-icone {
     width: 24px;
     height: auto;
     aspect-ratio: 1/1;
@@ -704,23 +704,23 @@ button {
     width: 100%;
   }
 
-  .Activites-Title {
+  .activites-title {
     padding: 0;
   }
 
-  .Activites-cards {
+  .activites-cards {
     flex-direction: column;
   }
 
-  .Activites-cards .card {
+  .activites-cards .card {
     height: auto;
   }
 
-  .Activites-cards img {
+  .activites-cards img {
     height: 141px;
   }
 
-  .FooterContainer {
+  .footer-container {
     width: 100%;
     padding: 0;
     flex-wrap: wrap;
