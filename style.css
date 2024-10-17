@@ -105,12 +105,10 @@ header {
 /****** Info Group ***********/
 .headline h2 {
   font-size: 22px;
-  font-weight: 700;
 }
 
 .headline p {
   font-size: 16px;
-  font-weight: 400;
 }
 
 .search-bar {
