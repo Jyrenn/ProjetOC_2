@@ -182,6 +182,11 @@ button {
   display: none;
 }
 
+.filter-bar {
+  display: flex;
+  gap: 15px;
+}
+
 .filtres p {
   font-size: 18px;
   font-weight: 700;
@@ -588,7 +593,12 @@ button {
   }
 
   .filter-bar {
+    flex-direction: column;
     height: 161px;
+    gap: 0;
+  }
+
+  .filtres {
     padding: 0px 20px;
   }
 
